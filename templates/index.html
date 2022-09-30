@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Hola mundo</title>
+</head>
+<body>
+    <h1 class="center-title">Lista de supermercado</h1>
+    <div class="img-box">
+        <img src="https://images.lider.cl/wmtcl?set=imageSize[medium],imageURL[file:/productos/848916a.jpg],options[progressive]&call=url[file:catalog/sizing.chain]&sink=format[jpg],options[progressive]" alt="">
+        <iframe width="280" height="157" class="video-shape" src="https://www.youtube.com/embed/4RyxRxydTdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Fuga veniam ex veritatis deleniti porro obcaecati nam 
+         magnam voluptatibus fugit. Pariatur minus voluptatibus 
+         quis dolorem cum porro voluptas at molestiae excepturi.
+    </p>
+    <form>
+        <input type="text" name="name" id="name" placeholder="name">
+        <input type="email" name="email" id="email" placeholder="email">
+        <button onclick="gotowhatsapp()"> Enviar</button>
+    </form>
+
+    <h1>OP: {{ data }}</h1>
+<script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
